@@ -1,0 +1,36 @@
+.info-con {
+    padding: 20px;
+    div {
+        color: $white;
+    }
+    .loc-con {
+        font-size: 45px;
+        padding-bottom: 5px;
+    }
+    .title-con {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 30px;
+        border-bottom: 5px solid $main-color;
+        padding-bottom: 10px;
+    }
+    .fatal-con {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 40px;
+        border-bottom: 5px solid $main-color;
+        padding: 15px 0px;
+        h2 {
+            span {
+                color: $main-color;
+                font-size: 45px;
+            }
+        }
+    }
+    .sum-con {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+}
