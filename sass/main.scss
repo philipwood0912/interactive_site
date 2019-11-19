@@ -1,0 +1,14 @@
+@import '_vars';
+@import 'modules/_header';
+@import 'modules/_svg';
+@import 'modules/_info';
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0 auto;
+    background-color: $black;
+    padding: 10px;
+}

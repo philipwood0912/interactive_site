@@ -1,0 +1,27 @@
+{
+  "name": "interactive_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipwood0912/interactive_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipwood0912/interactive_site/issues"
+  },
+  "homepage": "https://github.com/philipwood0912/interactive_site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.4",
+    "sass": "^1.23.3"
+  },
+  "devDependencies": {}
+}

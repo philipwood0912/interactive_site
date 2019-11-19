@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #FFFFFF;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+        transition: all .5s ease;
+      }
+    </style>
+  </defs>
+  <title>arrow1</title>
+  <g id="layer-two" data-name="Layer 2">
+    <polygon id="arrow" class="cls-1" points="2.5 2.5 2.5 81.5 41.5 42.5 2.5 2.5"/>
+  </g>
+</svg>
