@@ -2,6 +2,13 @@
 @import 'modules/_header';
 @import 'modules/_svg';
 @import 'modules/_info';
+@import 'modules/_charts';
+
+@mixin desktopBody {
+    @media (min-width: #{1100px}){
+        @content;
+    }
+}
 
 .hidden {
     display: none;
@@ -10,5 +17,10 @@
 body {
     margin: 0 auto;
     background-color: $black;
-    padding: 10px;
+    padding: 10px 10px 40px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    @include desktopBody {
+        padding: 10px 30px 40px 30px;
+        width: 1100px;
+    }
 }

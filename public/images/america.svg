@@ -12,7 +12,7 @@
 
       .cls-2 {
         fill: #C72C27;
-        transition: 1s ease;
+        transition: .5s ease;
         opacity: 0;
       }
 
@@ -90,7 +90,7 @@
   <circle id="Jacksonville" class="cls-2" cx="749.97" cy="435.84" r="18.27"/>
   <circle id="Atlanta" class="cls-2" cx="708.84" cy="363.03" r="18.27"/>
   <circle id="Charleston" class="cls-2" cx="783.69" cy="379.43" r="18.27"/>
-  <circle id="Geniva" class="cls-2" cx="665.35" cy="410.09" r="18.27"/>
+  <circle id="Geneva" class="cls-2" cx="665.35" cy="410.09" r="18.27"/>
   <circle id="Louisville" class="cls-2" cx="681" cy="277.95" r="18.27"/>
   <circle id="Omaha" class="cls-2" cx="494.61" cy="191.59" r="18.27"/>
   <circle id="Blacksburg" class="cls-2" cx="776.95" cy="285.62" r="18.27"/>

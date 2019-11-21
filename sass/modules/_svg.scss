@@ -1,30 +1,84 @@
+@mixin desktopsvg {
+    @media (min-width: #{900px}){
+        @content;
+    }
+}
+
 #svg-title {
     color: $white;
     font-size: 50px;
     text-align: center;
-    padding: 10px 0px;
+    padding: 20px 0px 10px 0px;
 }
 
 #svg-con {
     position: relative;
-    height: 100%;
     width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    @include desktopsvg {
+        width: 900px;
+        margin: 0 auto;
+        #america {
+            width: 900px;
+        }
+    }
 }
 
-#arrow-con {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+.left {
     position: absolute;
+    z-index: 1;
     bottom: 0;
+    left: 0;
+    opacity: .5;
+    transition: .5s ease;
     object {
         height: 50px;
         pointer-events: none;
+        @include desktopsvg {
+            height: 80px;
+        }
+    }
+}
+
+.left:hover, .right:hover {
+    opacity: 1;
+}
+
+.right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    opacity: .5;
+    transition: .5s ease;
+    object {
+        height: 50px;
+        pointer-events: none;
+        @include desktopsvg {
+            height: 80px;
+        }
     }
 }
 
 #svg-flex {
     width: 100%;
     height: 100%;
+}
+
+#svg-info {
+    position: absolute;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: $main-color;
+    border-radius: 5px;
+    top: 0;
+    right: 150px;
+    font-size: 25px;
+    padding: 5px;
+    color: $white;
+    @include desktopsvg {
+        font-size: 30px;
+        padding: 10px;
+    }
 }
